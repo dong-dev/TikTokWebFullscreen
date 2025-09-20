@@ -1,0 +1,61 @@
+/**
+ The Sidenav
+ */
+[class*="DivSideNavPlaceholderContainer"] {
+    width: 0px !important;
+    z-index: -1 !important;
+}
+
+/**
+ The Actice List Container
+ */
+[class*="DivColumnListContainer"] {
+    padding-inline-end: 0px !important
+}
+
+/**
+ The Article container
+ */
+[class*="ArticleItemContainer"] {
+    padding-inline: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+/**
+ The Article's content container
+ */
+[class*="DivContentFlexLayout"] {
+    position: relative !important;
+    height: -webkit-fill-available !important;
+}
+
+/**
+ Button container
+ Author's avatar
+ Like count, Comment count, Bookmark, Share button
+ */
+[class*="SectionActionBarContainer"] {
+    position: absolute !important;
+    right: 10px;
+    bottom: 10px;
+}
+
+/**
+ Button container
+ Author's avatar
+ Like count, Comment count, Bookmark, Share button
+ */
+[class*="SectionMediaCardContainer"] {
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+}
+
+/**
+ Button container
+ Author's avatar
+ Like count, Comment count, Bookmark, Share button
+ */
+[class*="DivContainer"] {
+    border-radius: unset !important;
+}
